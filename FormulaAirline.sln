@@ -1,6 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaAirline", "FormulaAirline\FormulaAirline.csproj", "{5A028C37-1DFE-4DE5-B620-448E78DCACEE}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA2584D8-D2AA-41F1-A3EE-8EF1792FC301}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirline.TicketProcessing", "FormulaAirline.TicketProcessing\FormulaAirline.TicketProcessing.csproj", "{CC052D7C-F241-43CC-912B-7FDFA4DD9F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirline.API", "FormulaAirline.API\FormulaAirline.API.csproj", "{11FC8619-D51D-46C1-B1F6-BD3A38BC8C82}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E3E448D0-8C58-4CFF-A9A6-D681297C9AD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +17,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5A028C37-1DFE-4DE5-B620-448E78DCACEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A028C37-1DFE-4DE5-B620-448E78DCACEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A028C37-1DFE-4DE5-B620-448E78DCACEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A028C37-1DFE-4DE5-B620-448E78DCACEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC052D7C-F241-43CC-912B-7FDFA4DD9F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC052D7C-F241-43CC-912B-7FDFA4DD9F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC052D7C-F241-43CC-912B-7FDFA4DD9F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC052D7C-F241-43CC-912B-7FDFA4DD9F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FC8619-D51D-46C1-B1F6-BD3A38BC8C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FC8619-D51D-46C1-B1F6-BD3A38BC8C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FC8619-D51D-46C1-B1F6-BD3A38BC8C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FC8619-D51D-46C1-B1F6-BD3A38BC8C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E448D0-8C58-4CFF-A9A6-D681297C9AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E448D0-8C58-4CFF-A9A6-D681297C9AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E448D0-8C58-4CFF-A9A6-D681297C9AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E448D0-8C58-4CFF-A9A6-D681297C9AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

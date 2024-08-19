@@ -1,0 +1,6 @@
+services:
+  formulaairline.api:
+    image: ${DOCKER_REGISTRY-}formulaairlineapi
+    build:
+      context: .
+      dockerfile: FormulaAirline.API/Dockerfile

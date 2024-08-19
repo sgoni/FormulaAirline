@@ -2,5 +2,5 @@
 
 public interface IMessageProducer
 {
-    
+    void Sendingmessage<T>(T message);
 }
